@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kristal Städ AB</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="#"><img src="images/Logo Kristalstäd AB.png" alt="KristalStäd Logo" width="110"></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Hem</a></li>
+        <li><a href="#about">Om Oss</a></li>
+        <li><a href="#services">Tjänster</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <main class="splash h-[100vh] flex flex-col justify-center items-start text-white">
+        <div class="bg-black/30 absolute top-0 left-0 w-full h-screen"></div>
+      <div class="md:left-[15%] absolute p-4">
+        <h1 class="font-bold text-5xl md:text-7xl drop-shadow-2xl text-orange-100 z-50">
+          Kristal Städ AB
+        </h1>
+        <h2 class="drop-shadow-2xl py-2 text-2xl text-orange-100">Håller din omgivning rent</h2>
+      </div>
+      
+    </main>
+    <section
+      class="about max-w-[1300px] m-auto my-8 pt-28 px-4 grid lg:grid-cols-2 gap-4"
+      id="about"
+    >
+      <div class="grid grid-cols-2 grid-rows-6 h-[80vh]">
+        <img
+          src="images/clean.jpg"
+          alt=""
+          class="object-cover w-full h-full p-2 row-span-3 rounded-xl"
+        />
+
+        <img
+          src="images/omoss.jpg"
+          alt=""
+          class="object-cover w-full h-full p-2 row-span-2 rounded-xl"
+        />
+
+        <img
+          src="images/dining.jpg"
+          alt=""
+          class="object-cover w-full h-full p-2 row-span-2 rounded-xl"
+        />
+
+        <img
+          src="images/main .jpg"
+          alt=""
+          class="object-cover w-full h-full p-2 row-span-3 rounded-xl"
+        />
+
+        <img
+          src="images/happy.jpg"
+          alt=""
+          class="object-cover w-full h-full p-2 row-span-2 rounded-xl"
+        />
+      </div>
+      <div class="flex flex-col h-full justify-center">
+        <h2 class="text-5xl font-bold p-5 text-gray-500">Vilka är vi</h2>
+        <p class="p-3 text-lg text-gray-400">
+          Bellastäd är ett modernt städföretag som har sin hemmabas i Malmö och
+          många års erfarenhet inom städning. Vi utför tjänster för
+          privatpersoner och företag.
+        </p>
+        <h2 class="text-5xl font-bold p-3 text-gray-500">Varför Välja oss</h2>
+        <p class="p-3 text-lg text-gray-400">
+          Vi utför våra uppdrag proffesionellt, med engagemang samt
+          flexibilitet. Vi lägger stort fockus på noggranhet.
+        </p>
+        <p class="p-3 text-lg text-gray-400">
+          När vi är ute på ett uppdrag, gör vi allt för att uppnå bästa
+          resultat. Vår strävan är att kunden blir nöjd. För att uppnå det har
+          vi hög kvalitetskontroll.
+        </p>
+      </div>
+    </section>
+    <section class="services h-full pt-14" id="services">
+        <div id="services" class=" max-w-[1250px] lg:h-[500px] bg-blue-100 mx-auto my-20 pt-16 lg:mb-[20%] md:mb-[15%]  px-4 grid grid-cols-3 gap-4">
+            <div class="  relative lg:col-span-1 col-span-3">
+              <h3 class=" text-2xl font-bold text-gray-500">Våra Tjänster består av:</h3>
+              <ul class=" pt-2 text-gray-500">
+                <li class=" text-xl py-1">Kontorstädning, Storstädning</li>
+                
+                <li class=" text-xl py-1">Trappstädning, Flyttstädning</li>
+                
+                <li class=" text-xl py-1">Fönsterputs.</li>
+              </ul>
+            </div>
+      
+            <div class=" grid grid-cols-2 col-span-2 gap-2">
+              <img class=" object-cover w-full h-[60%] lg:h-full row-span-1" src="images/kontor.jpg" alt='Städning av kontor' />
+              <img class=" object-cover w-full h-full row-span-2" src="images/clean.jpg" alt='Städning av kontor' />
+              <img class=" object-cover w-full h-[60%] lg:h-full row-span-1" src="images/window.jpg" alt='Städning av kontor' />
+            </div>
+          </div>
+    </section>
+    <footer id="contact">
+      <div class=' w-full h-[10vh] flex justify-center items-center'>
+        <h3 class="md:text-2xl">För offert samt kontakt <a href="mailto:info@kristalstad.se" class=' underline text-orange-600'>info@kristalstad.se</a></h3>
+      </div>
+      <div class=' w-full h-[10vh] flex justify-center items-center'>
+        <p>&copy; 2024 Kristal Städ AB | Skapad av <a href="https://dariuszjendryczka.com" class=' underline text-orange-600'>DariuszJendryczka</a></p>
+    </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
