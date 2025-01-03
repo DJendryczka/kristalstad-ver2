@@ -804,9 +804,21 @@ html {
 .splash {
   position: relative;
   top: 0;
-  background-image: url("/images/dining.jpg");
+  background-image: url("../images/dining.jpg");
   background-position: center;
   background-size: cover;
+}
+
+.cta-button {
+  background-color: #2184a5;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  margin: 10px 0;
 }
 
 /* Navbar */
@@ -816,7 +828,7 @@ nav {
   width: 100%;
   background-color: #3471d54b;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0;
@@ -825,7 +837,7 @@ nav {
 }
 
 .logo {
-  margin: 0;
+  margin-left: 100px;
   padding: 0;
   transition: 0.5s;
 }
@@ -835,6 +847,7 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   list-style: none;
+  margin-right: 100px;
 }
 
 ul li {
@@ -852,7 +865,7 @@ nav a {
   text-decoration: none;
   letter-spacing: 1.5px;
   transition: 0.5s;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .hamburger {
@@ -882,14 +895,20 @@ nav a {
     position: fixed;
   }
 
+  .logo {
+    margin-left: 20px;
+  }
+
   .nav-links {
     position: absolute;
-    right: 0px;
-    height: 92vh;
-    top: 8vh;
+    right: 0;
+    margin-right: 0;
+    height: 100dvh;
+    top: 0;
     background-color: #0d220f;
     display: flex;
     flex-direction: column;
+    align-items: end;
     width: 10rem;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
