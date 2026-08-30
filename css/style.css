@@ -39,7 +39,7 @@ h1, h2, h3 { font-family: "Manrope", sans-serif; letter-spacing: -.04em; line-he
 .menu-toggle { display: none; border: 0; background: transparent; cursor: pointer; }
 
 .hero { position: relative; display: flex; min-height: 820px; align-items: center; overflow: hidden; color: var(--white); background: var(--navy-deep); }
-.hero-image { position: absolute; inset: 0; background: url("../images/hero-kristal-2026.webp") center / cover no-repeat; transform: scale(1.02); }
+.hero-image { position: absolute; inset: 0; background: url("../images/hero-commercial-2026.webp") center / cover no-repeat; transform: scale(1.02); }
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(4,24,38,.96) 0%, rgba(4,24,38,.8) 44%, rgba(4,24,38,.18) 78%), linear-gradient(0deg, rgba(4,24,38,.42), transparent 45%); }
 .hero-content { position: relative; z-index: 1; padding: 150px 0 105px; }
 .hero-content h1 { max-width: 820px; margin-bottom: 25px; font-size: clamp(3.4rem, 7vw, 6.8rem); font-weight: 700; }
