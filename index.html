@@ -1,128 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sv">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;800&display=swap"
-      rel="stylesheet"
-    />
-    <title>Kristal Städ AB</title>
-  </head>
-  <body>
-    <nav>
-      <div class="logo">
-        <a href="#"><img src="images/Logo Kristalstäd AB.png" alt="KristalStäd Logo"  width="70"></a>
-      </div>
-      <ul class="nav-links">
-        <li><a href="#">Hem</a></li>
-        <li><a href="#about">Om Oss</a></li>
-        <li><a href="#services">Tjänster</a></li>
-        <li><a href="#contact">Kontakt</a></li>
-      </ul>
-      <div class="hamburger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-    </nav>
-    <main class="splash h-[100vh] flex flex-col justify-center items-start text-white">
-        <div class="bg-black/30 absolute top-0 left-0 w-full h-screen"></div>
-      <div class="md:left-[15%] absolute p-4">
-        <h1 class="font-bold text-5xl md:text-7xl drop-shadow-2xl text-orange-100 z-50">
-          Kristal Städ AB
-        </h1>
-        <h2 class="drop-shadow-2xl py-2 text-2xl text-orange-100">Håller din omgivning rent</h2>
-        <p>Vill du ha hjälp med städning?</p>
-        <button class="cta-button" onclick="window.location.href='#contact'">Kontakta oss</button>
-      </div>
-      
-    </main>
-    <section
-      class="about max-w-[1300px] m-auto my-8 pt-28 px-4 grid lg:grid-cols-2 gap-4"
-      id="about"
-    >
-      <div class="grid grid-cols-2 grid-rows-6 h-[80vh]">
-        <img
-          src="images/clean.jpg"
-          alt=""
-          class="object-cover w-full h-full p-2 row-span-3 rounded-xl"
-        />
-
-        <img
-          src="images/omoss.jpg"
-          alt=""
-          class="object-cover w-full h-full p-2 row-span-2 rounded-xl"
-        />
-
-        <img
-          src="images/dining.jpg"
-          alt=""
-          class="object-cover w-full h-full p-2 row-span-2 rounded-xl"
-        />
-
-        <img
-          src="images/main .jpg"
-          alt=""
-          class="object-cover w-full h-full p-2 row-span-3 rounded-xl"
-        />
-
-        <img
-          src="images/happy.jpg"
-          alt=""
-          class="object-cover w-full h-full p-2 row-span-2 rounded-xl"
-        />
-      </div>
-      <div class="flex flex-col h-full justify-center">
-        <h2 class="text-5xl font-bold p-5 text-gray-500">Vilka är vi</h2>
-        <p class="p-3 text-lg text-gray-400">
-          Bellastäd är ett modernt städföretag som har sin hemmabas i Malmö och
-          många års erfarenhet inom städning. Vi utför tjänster för
-          privatpersoner och företag.
-        </p>
-        <h2 class="text-5xl font-bold p-3 text-gray-500">Varför Välja oss</h2>
-        <p class="p-3 text-lg text-gray-400">
-          Vi utför våra uppdrag proffesionellt, med engagemang samt
-          flexibilitet. Vi lägger stort fockus på noggranhet.
-        </p>
-        <p class="p-3 text-lg text-gray-400">
-          När vi är ute på ett uppdrag, gör vi allt för att uppnå bästa
-          resultat. Vår strävan är att kunden blir nöjd. För att uppnå det har
-          vi hög kvalitetskontroll.
-        </p>
-      </div>
-    </section>
-    <section class="services h-full pt-14" id="services">
-        <div id="services" class=" max-w-[1250px] lg:h-[500px] bg-blue-100 mx-auto my-20 pt-16 lg:mb-[20%] md:mb-[15%]  px-4 grid grid-cols-3 gap-4">
-            <div class="  relative lg:col-span-1 col-span-3">
-              <h3 class=" text-2xl font-bold text-gray-500">Våra Tjänster består av:</h3>
-              <ul class=" pt-2 text-gray-500">
-                <li class=" text-xl py-1">Kontorstädning, Storstädning</li>
-                
-                <li class=" text-xl py-1">Trappstädning, Flyttstädning</li>
-                
-                <li class=" text-xl py-1">Fönsterputs.</li>
-              </ul>
-            </div>
-      
-            <div class=" grid grid-cols-2 col-span-2 gap-2">
-              <img class=" object-cover w-full h-[60%] lg:h-full row-span-1" src="images/kontor.jpg" alt='Städning av kontor' />
-              <img class=" object-cover w-full h-full row-span-2" src="images/clean.jpg" alt='Städning av kontor' />
-              <img class=" object-cover w-full h-[60%] lg:h-full row-span-1" src="images/window.jpg" alt='Städning av kontor' />
-            </div>
-          </div>
-    </section>
-    <footer id="contact">
-      <div class=' w-full h-[10vh] flex justify-center items-center'>
-        <h3 class="md:text-2xl">För offert samt kontakt skicka mail till <a href="mailto:info@kristalstad.se" class=' underline text-orange-600'>bellastad18@gmail.com</a></h3>
-      </div>
-      <div class=' w-full h-[10vh] flex justify-center items-center'>
-        <p>&copy; 2025 Kristal Städ AB | Powered by <a href="https://fekonsult" class=' underline text-orange-600'>FEKonsult</a></p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kristal Städ erbjuder professionell städning för privatpersoner och företag i Malmö. Kontorsstädning, flyttstädning, storstädning, trappstädning och fönsterputs.">
+  <meta name="theme-color" content="#0b2b44">
+  <title>Kristal Städ | Professionell städning i Malmö</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Hoppa till innehållet</a>
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Kristal Städ – startsida"><img src="images/Logo Kristalstäd AB.png" alt="Kristal Städ AB"></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Öppna meny"><span></span><span></span><span></span></button>
+      <nav class="main-nav" id="main-navigation" aria-label="Huvudmeny">
+        <a href="#tjanster">Tjänster</a><a href="#om-oss">Om oss</a><a href="#sa-fungerar-det">Så fungerar det</a>
+        <a class="nav-cta" href="mailto:info@kristalstad.se?subject=Offertförfrågan">Begär offert</a>
+      </nav>
     </div>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-image" aria-hidden="true"></div><div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <p class="eyebrow light">Städservice i Malmö</p>
+        <h1>Professionell städning för hem och företag.</h1>
+        <p class="hero-lead">Noggrann, flexibel och pålitlig städservice anpassad efter dina behov.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="mailto:info@kristalstad.se?subject=Offertförfrågan">Begär kostnadsfri offert</a>
+          <a class="button button-ghost" href="#tjanster">Se våra tjänster</a>
+        </div>
+        <ul class="trust-list" aria-label="Fördelar"><li>Privat &amp; företag</li><li>Flexibla upplägg</li><li>Noggrant utfört</li></ul>
+      </div>
+      <a class="scroll-cue" href="#tjanster" aria-label="Fortsätt till våra tjänster"><span>Upptäck mer</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+    </section>
+
+    <section class="section services" id="tjanster">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">Våra tjänster</p><h2>Rent där livet händer.</h2></div>
+          <p>Från den regelbundna kontorsstädningen till den grundliga flyttstädningen – vi hjälper dig med rätt insats för rätt tillfälle.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card service-card-featured reveal">
+            <img src="images/kontor.jpg" alt="Städning av en modern kontorsmiljö" loading="lazy"><div class="service-shade"></div>
+            <div class="service-content"><span class="service-number">01</span><h3>Kontorsstädning</h3><p>En ren arbetsmiljö som ger ett professionellt intryck och fungerar i vardagen.</p></div>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20h16M6 20V9l6-5 6 5v11M9 20v-5h6v5"/></svg></span>
+            <span class="service-number">02</span><h3>Trappstädning</h3><p>Regelbunden rengöring av trapphus och gemensamma ytor.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5M5.5 10v10h13V10M9 20v-6h6v6"/></svg></span>
+            <span class="service-number">03</span><h3>Flyttstädning</h3><p>Noggrann städning inför överlämning av bostad eller lokal.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/></svg></span>
+            <span class="service-number">04</span><h3>Storstädning</h3><p>En grundlig genomgång när det behövs mer än den vanliga städningen.</p>
+          </article>
+          <article class="service-card service-card-image reveal">
+            <img src="images/window.jpg" alt="Professionell fönsterputs" loading="lazy"><div class="service-shade"></div>
+            <div class="service-content"><span class="service-number">05</span><h3>Fönsterputs</h3><p>Rena fönster och ett ljusare intryck, hemma eller på arbetsplatsen.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="om-oss">
+      <div class="container about-grid">
+        <div class="about-visual reveal">
+          <img src="images/omoss.jpg" alt="Noggrann rengöring av en trappa" loading="lazy">
+          <div class="about-note"><span class="sparkle" aria-hidden="true">✦</span><p>Personlig service.<br>Noggrant resultat.</p></div>
+        </div>
+        <div class="about-copy reveal">
+          <p class="eyebrow">Om Kristal Städ</p><h2>Städning med omtanke om detaljerna.</h2>
+          <p class="lead">Kristal Städ är ett städföretag i Malmö som hjälper både privatpersoner och företag.</p>
+          <p>Vi arbetar med fokus på noggrannhet, flexibilitet och ett resultat som känns. Varje uppdrag utgår från dina behov – oavsett om du behöver återkommande hjälp eller en enskild insats.</p>
+          <div class="value-list">
+            <div class="value-item"><span>01</span><div><h3>Personlig kontakt</h3><p>En enkel dialog från första kontakt till utfört arbete.</p></div></div>
+            <div class="value-item"><span>02</span><div><h3>Lösningar efter behov</h3><p>Vi anpassar upplägget efter lokalen, hemmet och önskemålen.</p></div></div>
+            <div class="value-item"><span>03</span><div><h3>Kvalitet i varje detalj</h3><p>Ett noggrant arbete med omsorg om helheten.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process" id="sa-fungerar-det">
+      <div class="container">
+        <div class="process-heading reveal"><p class="eyebrow light">Så fungerar det</p><h2>Enkelt från första kontakt.</h2></div>
+        <div class="process-grid">
+          <article class="process-step reveal"><span>01</span><h3>Kontakta oss</h3><p>Berätta vad du behöver hjälp med och när.</p></article>
+          <article class="process-step reveal"><span>02</span><h3>Få ett förslag</h3><p>Vi återkommer med ett upplägg anpassat efter behovet.</p></article>
+          <article class="process-step reveal"><span>03</span><h3>Vi tar hand om resten</h3><p>Arbetet utförs noggrant och enligt överenskommelse.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="kontakt">
+      <div class="container contact-inner reveal">
+        <div><p class="eyebrow">Dags för ett renare resultat?</p><h2>Berätta vad du behöver hjälp med.</h2></div>
+        <div class="contact-action"><p>Skicka en förfrågan så återkommer vi med ett förslag.</p>
+          <a class="email-link" href="mailto:info@kristalstad.se?subject=Offertförfrågan"><span>info@kristalstad.se</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#top" aria-label="Kristal Städ – tillbaka till toppen"><img src="images/Logo Kristalstäd AB.png" alt="Kristal Städ AB"></a>
+      <div class="footer-links">
+        <div><p class="footer-label">Tjänster</p><a href="#tjanster">Se alla tjänster</a></div>
+        <div><p class="footer-label">Område</p><p>Malmö</p></div>
+        <div><p class="footer-label">Kontakt</p><a href="mailto:info@kristalstad.se">info@kristalstad.se</a></div>
+      </div>
+    </div>
+    <div class="container footer-bottom"><p>© <span data-year></span> Kristal Städ AB</p><a href="#top">Till toppen ↑</a></div>
+  </footer>
+</body>
 </html>
